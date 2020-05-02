@@ -20,4 +20,5 @@ from pages import urls
 urlpatterns = [
     path("", include("pages.urls")),
     path('admin/', admin.site.urls),
+    path('listings/', include('listings.urls'))
 ]
